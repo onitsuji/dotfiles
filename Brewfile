@@ -6,6 +6,7 @@ brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
 brew "starship"
 brew "ghostty"
+brew "lazygit"
 
 # Applications
 cask "bruno"
