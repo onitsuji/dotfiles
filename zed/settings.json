@@ -1,0 +1,33 @@
+{
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "project_panel": {
+    "auto_fold_dirs": false,
+    "dock": "right",
+    "default_width": 190,
+    "entry_spacing": "standard",
+    "indent_size": 12,
+    "indent_guides": {
+      "show": "never"
+    },
+    "scrollbar": {
+      "show": "never"
+    }
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "scroll_beyond_last_line": "off",
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Mocha",
+    "dark": "Catppuccin Mocha"
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "vim_mode": true,
+  "relative_line_numbers": true
+}

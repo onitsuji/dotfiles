@@ -1,6 +1,6 @@
 # Brewfile
 
-# Install Terminal, Zsh & Extensions
+# Terminal
 brew "zsh"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
