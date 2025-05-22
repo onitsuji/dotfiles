@@ -1,0 +1,40 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      // Move between open buffers
+      "space e l": "pane::ActivateNextItem",
+      "space e h": "pane::ActivatePreviousItem",
+      // Split buffers
+      "space j": "pane::SplitDown",
+      "space l": "pane::SplitRight",
+      // Move between open buffers in split
+      "space f j": "workspace::ActivatePaneDown",
+      "space f k": "workspace::ActivatePaneUp",
+      "space f l": "workspace::ActivatePaneRight",
+      "space f h": "workspace::ActivatePaneLeft",
+      // Close current buffer
+      "space c w": "pane::CloseActiveItem"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // Enter vim normal mode
+      "j j": ["workspace::SendKeystrokes", "escape"]
+    }
+  }
+]
